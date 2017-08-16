@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stopwatch</title>
+    <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="header">
+        <h1 class="title">StopWatch</h1>
+    </div>
+    <div class="container">
+        <div id="body">    
+            <h1 id="timerLabel">00:00:00</h1>
+            <input type="button" class="btn btn-primary btn-lg myButton" onclick="start()" value="START" id="startBtn">
+            <input type="button" class="btn btn-primary btn-lg myButton" onclick="stop()" value="STOP">
+            <input type="button" class="btn btn-primary btn-lg myButton" onclick="reset()" value="RESET">
+        </div>
+    </div>
+    <div id="footer">
+            Copyright © 2017 Kshitij
+    </div>    
+</body>
+</html>

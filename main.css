@@ -1,0 +1,39 @@
+body {
+            background-color: blueviolet;
+        }
+        .container {
+            padding-top: 100px;
+            text-align: center; 
+        }
+        #timerLabel {
+            margin-top: 100px;
+            color: white;
+        }
+        .myButton {
+            margin-top: 100px;
+            border-radius: 6px;
+            border: none;
+            font-size: 16px;
+        }
+        .title, .myButton {
+            font-family: 'Berkshire Swash', cursive;
+            color: midnightblue;
+        }
+        #header {
+            background:blue;
+            padding:30px;
+            text-align: center;
+         }
+        #body {
+            padding:10px;
+            padding-bottom:60px;  
+            text-align: center;
+         } 
+        #footer {
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:60px;  
+            text-align: center;
+            background:powderblue;
+         }
